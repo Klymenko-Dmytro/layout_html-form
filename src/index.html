@@ -99,12 +99,15 @@
         </label>
         <label class="labelStyle">
           What time do you go to bed?
-          <input type="time" name="time">
+          <input 
+            type="time" 
+            name="time" 
+            step="1"
+          >
         </label>
         <label class="labelStyle">
           What are your favorite brand of cars?
           <select name="favCars" multiple>
-            <option value=" " selected></option>
             <option value="bmw">BMW</option>
             <option value="audi">Audi</option>
             <option value="lada">Lada</option>
@@ -117,6 +120,7 @@
             name="rateWork" 
             min="1" 
             max="12"
+            value="1"
           >
         </label>
       </fieldset>
@@ -126,8 +130,8 @@
           Comments:
           <textarea 
             name="storytext" 
-            cols="30" 
-            rows="3"
+            cols="16" 
+            rows="2"
           ></textarea>
         </label>
         <label class="labelStyle">

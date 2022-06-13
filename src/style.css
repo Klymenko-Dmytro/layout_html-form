@@ -1,7 +1,10 @@
-/* styles go here */
 .labelStyle {
   display: block;
-  padding: 5px 0;
+  margin-bottom: 10px;
+}
+
+.fieldStyle .labelStyle:last-of-type {
+  margin-bottom: 0;
 }
 
 .fieldStyle {
@@ -10,4 +13,8 @@
 
 .button {
   margin-top: 20px;
+}
+
+.fieldStyle:first-of-type {
+  margin-top: 0;
 }
